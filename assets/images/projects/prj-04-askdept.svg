@@ -1,0 +1,36 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a retrieval augmented generation pipeline: documents, chunking, embeddings, FAISS, and an answer">
+  <rect width="480" height="270" fill="#0f2740"/>
+  <g stroke="#1c4569" stroke-width="1">
+    <line x1="0" y1="45" x2="480" y2="45"/><line x1="0" y1="90" x2="480" y2="90"/>
+    <line x1="0" y1="135" x2="480" y2="135"/><line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+  </g>
+  <!-- documents -->
+  <rect x="24" y="95" width="34" height="44" rx="1" fill="#123256" stroke="#7dd3fc"/>
+  <rect x="34" y="88" width="34" height="44" rx="1" fill="#123256" stroke="#7dd3fc"/>
+  <text x="18" y="150" font-family="monospace" font-size="8" fill="#8fa3b8">DOCS</text>
+  <!-- chunking -->
+  <path d="M75,110 L120,110" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="122" y="90" width="16" height="40" fill="none" stroke="#f2a54a"/>
+  <rect x="140" y="90" width="16" height="40" fill="none" stroke="#f2a54a"/>
+  <rect x="158" y="90" width="16" height="40" fill="none" stroke="#f2a54a"/>
+  <text x="118" y="148" font-family="monospace" font-size="7.5" fill="#8fa3b8">CHUNKS</text>
+  <!-- embeddings -->
+  <path d="M178,110 L210,110" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="228" cy="98" r="4" fill="#7ee0b8"/><circle cx="240" cy="108" r="4" fill="#7ee0b8"/>
+  <circle cx="220" cy="118" r="4" fill="#7ee0b8"/><circle cx="236" cy="126" r="4" fill="#7ee0b8"/>
+  <text x="208" y="148" font-family="monospace" font-size="7.5" fill="#8fa3b8">EMBEDDINGS</text>
+  <!-- FAISS store -->
+  <path d="M252,112 L290,112" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="292" y="85" width="80" height="55" rx="2" fill="#0a1c30" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="305" y="108" font-family="monospace" font-size="9" fill="#7dd3fc">FAISS</text>
+  <text x="305" y="122" font-family="monospace" font-size="8" fill="#8fa3b8">vector index</text>
+  <!-- query + answer -->
+  <path d="M40,190 L40,165 M34,175 L40,163 L46,175" fill="none" stroke="#f2a54a" stroke-width="1.5"/>
+  <text x="14" y="205" font-family="monospace" font-size="8" fill="#f2a54a">QUERY</text>
+  <path d="M60,195 L292,140" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M372,112 L440,112 L440,190" stroke="#7ee0b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="392" y="185" width="70" height="34" rx="2" fill="none" stroke="#7ee0b8" stroke-width="1.5"/>
+  <text x="402" y="205" font-family="monospace" font-size="9" fill="#7ee0b8">ANSWER</text>
+  <text x="16" y="20" font-family="monospace" font-size="10" fill="#8fa3b8">FIG — ASKDEPT RETRIEVAL PIPELINE</text>
+</svg>

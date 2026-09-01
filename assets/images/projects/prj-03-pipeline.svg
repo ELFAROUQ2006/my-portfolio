@@ -1,0 +1,27 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram comparing fuzzy logic and neural network classification of pipeline sensor data">
+  <rect width="480" height="270" fill="#0f2740"/>
+  <g stroke="#1c4569" stroke-width="1">
+    <line x1="0" y1="45" x2="480" y2="45"/><line x1="0" y1="90" x2="480" y2="90"/>
+    <line x1="0" y1="135" x2="480" y2="135"/><line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+  </g>
+  <!-- pipeline -->
+  <rect x="20" y="120" width="200" height="20" fill="#123256" stroke="#7dd3fc" stroke-width="1.5"/>
+  <circle cx="150" cy="130" r="6" fill="#f2a54a"/>
+  <path d="M150,130 L150,90 M144,96 L150,84 L156,96" fill="none" stroke="#f2a54a" stroke-width="1.5"/>
+  <text x="130" y="76" font-family="monospace" font-size="8" fill="#f2a54a">LEAK</text>
+  <!-- sensors -->
+  <circle cx="60" cy="130" r="4" fill="#7ee0b8"/><text x="45" y="155" font-family="monospace" font-size="8" fill="#8fa3b8">PRESSURE</text>
+  <circle cx="110" cy="130" r="4" fill="#7ee0b8"/><text x="92" y="170" font-family="monospace" font-size="8" fill="#8fa3b8">FLOW</text>
+  <circle cx="190" cy="130" r="4" fill="#7ee0b8"/><text x="165" y="155" font-family="monospace" font-size="8" fill="#8fa3b8">ACOUSTIC</text>
+  <!-- split to two classifiers -->
+  <path d="M220,130 L260,130 L280,80 L340,80" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M220,130 L260,130 L280,190 L340,190" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="340" y="55" width="120" height="50" rx="2" fill="#0a1c30" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="352" y="76" font-family="monospace" font-size="9" fill="#7dd3fc">FUZZY LOGIC</text>
+  <text x="352" y="92" font-family="monospace" font-size="8" fill="#8fa3b8">rule-based</text>
+  <rect x="340" y="165" width="120" height="50" rx="2" fill="#0a1c30" stroke="#7ee0b8" stroke-width="1.5"/>
+  <text x="352" y="186" font-family="monospace" font-size="9" fill="#7ee0b8">MLP NETWORK</text>
+  <text x="352" y="202" font-family="monospace" font-size="8" fill="#8fa3b8">learned weights</text>
+  <text x="16" y="20" font-family="monospace" font-size="10" fill="#8fa3b8">FIG — LEAK CLASSIFICATION: FUZZY LOGIC VS. MLP</text>
+</svg>

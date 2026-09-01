@@ -1,0 +1,28 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a smart agriculture sensor node feeding a monitoring dashboard">
+  <rect width="480" height="270" fill="#0f2740"/>
+  <g stroke="#1c4569" stroke-width="1">
+    <line x1="0" y1="45" x2="480" y2="45"/><line x1="0" y1="90" x2="480" y2="90"/>
+    <line x1="0" y1="135" x2="480" y2="135"/><line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+    <line x1="60" y1="0" x2="60" y2="270"/><line x1="180" y1="0" x2="180" y2="270"/>
+    <line x1="300" y1="0" x2="300" y2="270"/><line x1="420" y1="0" x2="420" y2="270"/>
+  </g>
+  <!-- soil / field -->
+  <rect x="30" y="190" width="120" height="10" fill="#7ee0b8" opacity="0.5"/>
+  <rect x="30" y="200" width="120" height="30" fill="#123a2c"/>
+  <path d="M40,200 L40,175 M60,200 L60,170 M80,200 L80,178 M100,200 L100,172 M120,200 L120,176" stroke="#7ee0b8" stroke-width="2" fill="none"/>
+  <!-- sensor stake -->
+  <rect x="66" y="120" width="4" height="55" fill="#8fa3b8"/>
+  <circle cx="68" cy="112" r="10" fill="none" stroke="#7dd3fc" stroke-width="2"/>
+  <circle cx="68" cy="112" r="3" fill="#7dd3fc"/>
+  <!-- transmission trace -->
+  <path d="M78,112 L160,112 L190,84 L330,84" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="330" cy="84" r="4" fill="#f2a54a"/>
+  <!-- dashboard box -->
+  <rect x="330" y="60" width="110" height="150" rx="2" fill="#0a1c30" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="345" y="82" font-family="monospace" font-size="9" fill="#7dd3fc">MONITOR</text>
+  <polyline points="345,180 365,150 385,165 405,120 425,140" fill="none" stroke="#7ee0b8" stroke-width="2"/>
+  <rect x="345" y="190" width="80" height="8" fill="#123256"/>
+  <rect x="345" y="190" width="52" height="8" fill="#f2a54a"/>
+  <text x="16" y="20" font-family="monospace" font-size="10" fill="#8fa3b8">FIG — AGRICULTURE MONITORING NODE</text>
+</svg>

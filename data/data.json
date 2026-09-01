@@ -1,0 +1,72 @@
+{
+  "site": {
+    "owner": "Umar Faruk Yakubu",
+    "alias": "El Farouq",
+    "brand": "UYF GLOBAL VENTURES",
+    "role": "Final-Year Computer Engineering Student",
+    "institution": "Ahmadu Bello University, Zaria",
+    "email": "ufarukyakubu@gmail.com",
+    "phone": "08144108204",
+    "location": "Zaria, Kaduna State, Nigeria"
+  },
+  "projects": [
+    {
+      "id": "prj-01",
+      "title": "AI-Powered Smart Agriculture Monitoring System",
+      "date": "2025",
+      "category": "Embedded Systems / AI",
+      "description": "A sensor-based monitoring system for agricultural environments, paired with a full technical breakdown and cost analysis using real Nigerian market component pricing (Jumia, Konga) to keep the build practical and locally sourceable.",
+      "image_url": "assets/images/projects/prj-01-agriculture.svg",
+      "tags": ["Sensors", "Monitoring", "Cost Analysis"]
+    },
+    {
+      "id": "prj-02",
+      "title": "AI Voice and Facial Recognition Smart Security System",
+      "date": "2025",
+      "category": "Artificial Intelligence / Security",
+      "description": "A smart security concept combining voice and facial recognition, scoped with a detailed technical and cost breakdown sourced against the Nigerian retail market.",
+      "image_url": "assets/images/projects/prj-02-security.svg",
+      "tags": ["Voice Recognition", "Facial Recognition", "Security Systems"]
+    },
+    {
+      "id": "prj-03",
+      "title": "Pipeline Leak Detection System",
+      "date": "2026",
+      "category": "Applied AI / Diagnostics",
+      "description": "A comparative fault-detection study for pipeline leaks, classifying pressure, flow, and acoustic sensor data using two approaches: a fuzzy logic system and a multilayer perceptron (MLP) neural network.",
+      "image_url": "assets/images/projects/prj-03-pipeline.svg",
+      "tags": ["Fuzzy Logic", "MLP Neural Network", "Sensor Fusion"]
+    },
+    {
+      "id": "prj-04",
+      "title": "AskDept - Departmental RAG Assistant",
+      "date": "2026",
+      "category": "Machine Learning / NLP",
+      "description": "A retrieval-augmented generation assistant for departmental questions. The pipeline covers document loading, chunking via recursive character text splitting, embedding with sentence-transformers, and vector storage/retrieval through FAISS.",
+      "image_url": "assets/images/projects/prj-04-askdept.svg",
+      "tags": ["RAG", "FAISS", "Sentence-Transformers", "LLM Pipelines"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-01",
+      "credential": "B.Eng. Computer Engineering",
+      "institution": "Ahmadu Bello University, Zaria",
+      "period": "Final Year, Expected 2026",
+      "description": "Coursework and project work spanning embedded systems, digital signal processing, artificial intelligence, and software engineering."
+    },
+    {
+      "id": "edu-02",
+      "credential": "WAEC - Senior Secondary School Certificate",
+      "institution": "Hassana Memorial School, Kaduna",
+      "period": "2015",
+      "description": "Completed senior secondary education and sat for the West African Examinations Council Senior School Certificate Examination."
+    }
+  ],
+  "skills": [
+    { "category": "Embedded & Hardware", "items": ["Microcontrollers", "Sensor Integration", "Circuit Design", "Signal Processing"] },
+    { "category": "AI & Machine Learning", "items": ["Neural Networks (MLP)", "Fuzzy Logic", "RAG Pipelines", "FAISS", "Sentence-Transformers"] },
+    { "category": "Programming", "items": ["Python", "C / C++", "JavaScript"] },
+    { "category": "Tools & Practice", "items": ["Git", "Technical Diagramming (SVG)", "Cost & Feasibility Analysis", "Documentation"] }
+  ]
+}

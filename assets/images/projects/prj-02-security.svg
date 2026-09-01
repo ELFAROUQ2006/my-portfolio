@@ -1,0 +1,33 @@
+<svg viewBox="0 0 480 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a face and voice recognition security pipeline">
+  <rect width="480" height="270" fill="#0f2740"/>
+  <g stroke="#1c4569" stroke-width="1">
+    <line x1="0" y1="45" x2="480" y2="45"/><line x1="0" y1="90" x2="480" y2="90"/>
+    <line x1="0" y1="135" x2="480" y2="135"/><line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+    <line x1="120" y1="0" x2="120" y2="270"/><line x1="240" y1="0" x2="240" y2="270"/>
+    <line x1="360" y1="0" x2="360" y2="270"/>
+  </g>
+  <!-- face scan -->
+  <circle cx="90" cy="120" r="34" fill="none" stroke="#7dd3fc" stroke-width="1.5"/>
+  <circle cx="78" cy="112" r="3" fill="#7dd3fc"/><circle cx="102" cy="112" r="3" fill="#7dd3fc"/>
+  <path d="M76,134 Q90,142 104,134" fill="none" stroke="#7dd3fc" stroke-width="1.5"/>
+  <rect x="52" y="86" width="76" height="68" fill="none" stroke="#f2a54a" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- voice waveform -->
+  <g stroke="#7ee0b8" stroke-width="2" stroke-linecap="round">
+    <line x1="70" y1="200" x2="70" y2="210"/><line x1="80" y1="190" x2="80" y2="220"/>
+    <line x1="90" y1="180" x2="90" y2="230"/><line x1="100" y1="195" x2="100" y2="215"/>
+    <line x1="110" y1="188" x2="110" y2="222"/>
+  </g>
+  <!-- transmission -->
+  <path d="M128,120 L200,120 L220,90 L340,90" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M128,205 L200,205 L220,150 L340,150" fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="340" cy="90" r="4" fill="#f2a54a"/><circle cx="340" cy="150" r="4" fill="#f2a54a"/>
+  <!-- decision unit -->
+  <rect x="340" y="60" width="110" height="150" rx="2" fill="#0a1c30" stroke="#7dd3fc" stroke-width="1.5"/>
+  <text x="355" y="82" font-family="monospace" font-size="9" fill="#7dd3fc">MATCH</text>
+  <rect x="355" y="100" width="80" height="26" rx="2" fill="none" stroke="#7ee0b8" stroke-width="1.5"/>
+  <text x="365" y="117" font-family="monospace" font-size="9" fill="#7ee0b8">ACCESS OK</text>
+  <rect x="355" y="150" width="80" height="26" rx="2" fill="none" stroke="#f2a54a" stroke-width="1.5"/>
+  <text x="365" y="167" font-family="monospace" font-size="9" fill="#f2a54a">ALERT</text>
+  <text x="16" y="20" font-family="monospace" font-size="10" fill="#8fa3b8">FIG — VOICE + FACIAL RECOGNITION PIPELINE</text>
+</svg>
